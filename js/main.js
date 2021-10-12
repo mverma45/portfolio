@@ -29,10 +29,10 @@ let letter = "";
     currentText = texts[count];
     letter = currentText.slice(0,++index);
 
-    document.querySelector(".typing2").textContent = letter;
-    if (letter.length === currentText.length) {
-        count++;
-        index = 0;
-    }
-    setTimeout(type,400);
+    // document.querySelector(".typing2").textContent = letter;
+    // if (letter.length === currentText.length) {
+    //     count++;
+    //     index = 0;
+    // }
+    // setTimeout(type,400);
 }());
