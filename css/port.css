@@ -1,0 +1,141 @@
+html {
+  font-size: 14px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.main-para {
+  margin: 0.5em 0 1em 1em;
+}
+.heading,
+h1,
+.title {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.emperor-image {
+  padding: 10em;
+  background-image: url(../Images/dev.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em;
+}
+
+.contact-image {
+  background-image: url(../Images/contact.jpg);
+  height: 15rem;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills-image {
+  padding: 10em;
+  background-image: url(../Images/skills.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em;
+}
+.fa-html5,
+.fa-css3,
+.fa-js-square,
+.fa-code-branch,
+.fa-github,
+.fa-envelope-open-text,
+.fa-phone-volume {
+  padding-right: 3em;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1em;
+}
+.aboutMe {
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: 2em;
+}
+
+.contact {
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 20em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.navbar-nav {
+  margin-left: 67em;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 1em;
+}
+.list {
+  list-style-type: none;
+}
+
+/* icons */
+/* unvisited link */
+a:link {
+  color: blue;
+}
+/* visited link */
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: blueviolet;
+}
+/* selected link */
+a:active {
+  color: gold;
+}
+
+/* typing effect */
+.heading {
+  position: relative;
+  color: black;
+  margin-left: 10px;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  width: 1px;
+  height: 25%;
+  border-right: 2px solid black;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
