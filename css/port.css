@@ -81,10 +81,6 @@ a {
   margin-right: 3em;
 }
 
-.navbar-nav {
-  margin-left: 67em;
-}
-
 .social {
   display: flex;
   flex-direction: row;
