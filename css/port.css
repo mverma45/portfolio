@@ -31,11 +31,11 @@ a {
 }
 
 .contact-image {
+  padding: 10em;
   background-image: url(../images/contact.jpg);
-  height: 15rem;
-  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 1em;
 }
 
 .skills-image {
