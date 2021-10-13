@@ -24,14 +24,14 @@ a {
 
 .emperor-image {
   padding: 10em;
-  background-image: url(../Images/dev.jpg);
+  background-image: url(../images/dev.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1em;
 }
 
 .contact-image {
-  background-image: url(../Images/contact.jpg);
+  background-image: url(../images/contact.jpg);
   height: 15rem;
   width: auto;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ a {
 
 .skills-image {
   padding: 10em;
-  background-image: url(../Images/skills.jpg);
+  background-image: url(../images/skills.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1em;
