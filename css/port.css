@@ -1,4 +1,5 @@
 html {
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 
@@ -9,12 +10,14 @@ html {
   padding-top: 1em;
 }
 
-.main-para {
+.main-para,
+.sports {
   margin: 0.5em 0 1em 1em;
 }
 .heading,
 h1,
-.title {
+.title,
+.hobbies {
   text-align: center;
 }
 
@@ -36,6 +39,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1em;
+}
+
+.favteam-container {
+  display: flex;
 }
 
 .skills-image {
