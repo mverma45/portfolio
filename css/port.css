@@ -58,15 +58,42 @@ a {
 .fa-code-branch,
 .fa-github,
 .fa-envelope-open-text,
-.fa-phone-volume {
+.fa-phone-volume,
+.fa-vuejs,
+.fa-react,
+.icon-mongodb {
   padding-right: 3em;
 }
 
+.skillsIknow {
+  text-decoration: underline;
+}
+
+.database {
+  display: inline-block;
+  /* flex-direction: row; */
+}
 .list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 1em;
+  list-style-type: none;
+}
+
+.listLearning {
+  display: inline-block;
+  padding-top: 1em;
+  list-style-type: none;
+}
+
+.db {
+  padding-left: 2em;
+}
+.workInProgress {
+  text-align: center;
+  padding-top: 4rem;
+  text-decoration: underline;
 }
 .aboutMe {
   margin-left: 3em;
@@ -93,9 +120,6 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 1em;
-}
-.list {
-  list-style-type: none;
 }
 
 /* icons */
