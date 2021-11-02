@@ -66,13 +66,10 @@ a {
 }
 
 .skillsIknow {
+  padding-top: 2em;
   text-decoration: underline;
 }
 
-.database {
-  display: inline-block;
-  /* flex-direction: row; */
-}
 .list {
   display: flex;
   flex-direction: column;
@@ -80,21 +77,6 @@ a {
   list-style-type: none;
 }
 
-.listLearning {
-  display: flex;
-  flex-direction: column;
-  padding-top: 1em;
-  list-style-type: none;
-}
-
-.db {
-  padding-left: 2em;
-}
-.workInProgress {
-  text-align: center;
-  padding-top: 4rem;
-  text-decoration: underline;
-}
 .aboutMe {
   margin-left: 3em;
   margin-right: 3em;
