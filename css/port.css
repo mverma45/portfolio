@@ -76,7 +76,6 @@ a {
 .list {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   padding-top: 1em;
   list-style-type: none;
 }
