@@ -3,7 +3,7 @@ html {
   font-size: 14px;
 }
 
-.fName {
+/* .fName {
   background-image: linear-gradient(#3e4853, #189949, #ee9715);
   color: #fff;
 }
@@ -15,7 +15,7 @@ html {
     rgba(206, 142, 142, 0.753)
   );
   color: #fff;
-}
+} */
 
 #contact {
   display: flex;
@@ -28,6 +28,7 @@ html {
 .sports {
   margin: 0.5em 0 1em 1em;
 }
+
 .heading,
 h1,
 .title,
@@ -66,6 +67,7 @@ a {
   background-size: cover;
   margin: 1em;
 }
+
 .fa-html5,
 .fa-css3,
 .fa-js-square,
@@ -123,14 +125,17 @@ a {
 a:link {
   color: blue;
 }
+
 /* visited link */
 a:visited {
   color: green;
 }
+
 /* mouse over link */
 a:hover {
   color: blueviolet;
 }
+
 /* selected link */
 a:active {
   color: gold;
@@ -141,17 +146,6 @@ a:active {
   position: relative;
   color: black;
   margin-left: 10px;
-}
-
-.heading::after {
-  content: "";
-  position: absolute;
-  top: 10%;
-  right: -2px;
-  width: 1px;
-  height: 25%;
-  border-right: 2px solid black;
-  animation: blink 0.5s infinite ease;
 }
 
 @keyframes blink {
