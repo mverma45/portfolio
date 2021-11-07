@@ -90,6 +90,13 @@ a {
   margin-right: 3em;
 }
 
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 1em 1em 0;
+}
+
 .social {
   display: flex;
   flex-direction: row;
