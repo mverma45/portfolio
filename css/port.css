@@ -132,11 +132,42 @@ a:active {
   margin-left: 10px;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 0;
+@media screen and (max-width: 630px) {
+  .fa-copyright,
+  .fa-envelope-open-text,
+  .fa-phone-volume {
+    font-size: 12px;
   }
-  100% {
-    opacity: 1;
+  .footer {
+    padding-top: 20em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 1em 1em 0;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .fa-copyright,
+  .fa-envelope-open-text,
+  .fa-phone-volume {
+    font-size: 10px;
+  }
+  .footer {
+    padding-top: 20em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1em 1em 0;
   }
 }
