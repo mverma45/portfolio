@@ -20,6 +20,10 @@ html {
   list-style-type: none;
 }
 
+.headingMain {
+  padding-top: 2em;
+}
+
 .heading,
 h1,
 .title,
