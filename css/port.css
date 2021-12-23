@@ -87,11 +87,10 @@ a {
   padding: 0;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  padding-top: 1em;
-  list-style-type: none;
+.listSkills {
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-auto-rows: minmax(100px);
 }
 
 .aboutMe {
