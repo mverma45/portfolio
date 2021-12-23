@@ -1,6 +1,7 @@
 html {
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
+  scroll-behavior: smooth;
 }
 
 #contact {
@@ -185,4 +186,9 @@ a:active {
     justify-content: space-between;
     padding: 0 1em 1em 0;
   }
+}
+
+.skip-nav-link {
+  position: absolute;
+  transform: translateY(120%)
 }
