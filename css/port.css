@@ -1,194 +1,67 @@
+/* All pages */
 html {
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   scroll-behavior: smooth;
 }
 
-#contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 1em;
-}
-
-.main-para,
-.sports {
-  margin: 0.5em 0 1em 1em;
-}
-
-.projects,
-.mainProjects {
-  text-align: left;
-  list-style-type: none;
-}
-
-.headingMain {
-  padding-top: 2em;
-}
-
-.heading,
-h1,
-.title,
-.hobbies,
-.contact,
-.skills,
-.follow {
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-.emperor-image {
-  padding: 8em;
-  background-image: url(../images/dev.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1em;
-}
-
-.contact-image {
-  padding: 10em;
-  background-image: url(../images/contact.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1em;
-}
-
-.skills-image {
-  padding: 10em;
-  background-image: url(../images/skills.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1em;
-}
-
-.fa-html5,
-.fa-css3,
-.fa-js-square,
-.fa-code-branch,
-.fa-github,
-.fa-envelope-open-text,
-.fa-phone-volume,
-.fa-vuejs,
-.fa-react,
-.icon-mongodb {
-  padding-right: 3em;
-}
-
-.skillsIknow {
-  padding-top: 2em;
-  text-decoration: underline;
-}
-
-.listProjects {
-  text-align: left;
-  list-style-type: none;
-  padding: 0;
-}
-
-.listSkills {
-  display: grid;
-  grid-template-columns: repeat(3);
-  grid-auto-rows: minmax(100px);
-}
-
-.aboutMe {
-  margin-left: 3em;
-  margin-right: 3em;
-  padding-top: 2em;
-}
-
 .footer {
   padding-top: 20em;
-  margin-left: 3em;
-  margin-right: 3em;
 }
 
 .info {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0 1em 1em 0;
-}
-
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 
-/* icons */
-/* unvisited link */
-a:link {
-  color: blue;
+/* Home Page */
+.fullName,
+.jobTitle {
+  text-align: center;
 }
 
-/* visited link */
-a:visited {
-  color: green;
+.title,
+.hobbies {
+  text-align: center;
+  margin-top: 1em;
 }
 
-/* mouse over link */
-a:hover {
-  color: blueviolet;
+.main-para,
+.sports {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/* Contact Page */
+
+.contact {
+  text-align: center;
+  margin-top: 1em;
 }
 
-/* selected link */
-a:active {
-  color: gold;
+.contact-info {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+}
+/* Skills Page */
+
+.skillsIknow {
+  text-align: center;
+  margin-top: 1em;
+  text-decoration: underline;
 }
 
-/* typing effect */
-.heading {
-  position: relative;
-  color: black;
-  margin-left: 10px;
+.skills {
+  text-align: center;
+  margin-right: 1.15em;
+  line-height: 0.75;
 }
 
-@media screen and (max-width: 630px) {
-  .fa-copyright,
-  .fa-envelope-open-text,
-  .fa-phone-volume {
-    font-size: 12px;
-  }
-  .footer {
-    padding-top: 20em;
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0 1em 1em 0;
-  }
-}
-
-@media screen and (max-width: 545px) {
-  .fa-copyright,
-  .fa-envelope-open-text,
-  .fa-phone-volume {
-    font-size: 9px;
-  }
-  .footer {
-    padding-top: 20em;
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1em 1em 0;
-  }
-}
-
-.skip-nav-link {
-  position: absolute;
-  transform: translateY(120%)
+.myProjects {
+  text-align: left;
+  padding-left: 1em;
 }
