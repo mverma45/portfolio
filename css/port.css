@@ -3,9 +3,7 @@
 html,
 body {
   font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+  font-size: 15px;
   height: 100%;
 }
 
@@ -14,15 +12,14 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .header {
   display: block;
   margin: 0 auto;
-  width: 10%;
+  width: 100%;
   max-width: 100%;
-  box-shadow: none;
   background-color: black;
-  position: fixed;
-  height: 60px;
+  height: 50px;
   overflow: hidden;
   z-index: 10;
 }
@@ -33,12 +30,14 @@ body {
   height: 100%;
   margin-top: 60px;
 }
+
 .mainInner {
   display: table;
   height: 100%;
   width: 100%;
   text-align: center;
 }
+
 .mainInner div {
   display: table-cell;
   vertical-align: middle;
@@ -46,6 +45,7 @@ body {
   font-weight: bold;
   letter-spacing: 1.25px;
 }
+
 #sidebarMenu {
   height: 100%;
   position: fixed;
@@ -56,11 +56,13 @@ body {
   transition: transform 250ms ease-in-out;
   background: linear-gradient(180deg, #3f5efb 0%, #3f5efb 100%);
 }
+
 .sidebarMenuInner {
   margin: 0;
   padding: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .sidebarMenuInner li {
   list-style: none;
   color: #fff;
@@ -69,11 +71,13 @@ body {
   padding: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .sidebarMenuInner li span {
   display: block;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .sidebarMenuInner li a {
   color: #fff;
   text-transform: uppercase;
@@ -91,6 +95,7 @@ input[type="checkbox"] {
   box-sizing: border-box;
   display: none;
 }
+
 .sidebarIconToggle {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -104,6 +109,7 @@ input[type="checkbox"] {
   height: 22px;
   width: 22px;
 }
+
 .spinner {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -112,6 +118,7 @@ input[type="checkbox"] {
   width: 100%;
   background-color: #fff;
 }
+
 .horizontal {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -119,12 +126,14 @@ input[type="checkbox"] {
   float: left;
   margin-top: 3px;
 }
+
 .diagonal.part-1 {
   position: relative;
   transition: all 0.3s;
   box-sizing: border-box;
   float: left;
 }
+
 .diagonal.part-2 {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -132,17 +141,20 @@ input[type="checkbox"] {
   float: left;
   margin-top: 3px;
 }
+
 input[type="checkbox"]:checked ~ .sidebarIconToggle > .horizontal {
   transition: all 0.3s;
   box-sizing: border-box;
   opacity: 0;
 }
+
 input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
   transition: all 0.3s;
   box-sizing: border-box;
   transform: rotate(135deg);
   margin-top: 8px;
 }
+
 input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -194,6 +206,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   text-align: center;
   gap: 1em;
 }
+
 /* Skills Page */
 
 .skillsIknow {
@@ -211,4 +224,14 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .myProjects {
   text-align: left;
   padding-left: 1em;
+}
+
+img,
+.logos {
+  display: inline-block;
+  /* top | right | bottom | left */
+  margin: 4.25em 2em 0 14em;
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  max-width: 12em;
+  max-height: 8em;
 }
