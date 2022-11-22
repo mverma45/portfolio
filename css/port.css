@@ -81,6 +81,23 @@ img,
   gap: 1em;
 }
 
+.social {
+  padding-left: .75em;
+}
+
+.social-media {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding-left: 2em;
+  gap: .5em;
+}
+
+i{
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
 /* Skills Page */
 
 .skillsIknow {
