@@ -1,53 +1,42 @@
-/* All pages */
-html,
-body
-{
-  font-family: "Times New Roman";
-  font-size: 15px;
-  height: 100%;
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
-  height: 50px;
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.main {
-  margin: 0 auto;
-  display: block;
-  height: 100%;
-  margin-top: 60px;
+.navBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 10px;  
+  background-color: #333;
+  text-decoration: none;
 }
 
-.navbar-brand {
+.navBar a {
   color: #fff;
 }
 
-/* Home Page */
-.fullName,
-.jobTitle {
+.banner {
+  text-align: center;
+}
+
+.aboutMe, .hobbies {
   /* top | right | bottom | left */
-  margin: 1.5em 0 0.05em 0;
-  text-align: center;
-}
-
-.title,
-.hobbies {
-  text-align: center;
-  margin-top: 1em;
-}
-
-.main-para,
-.sports {
-  padding-left: 2em;
-  padding-right: 2em;
+  margin: 1em 1em 0 1em;
 }
 
 img,
-#logos {
+.logos {
   display: flex;
   height: 175px;
   min-width: 190px;
@@ -56,87 +45,38 @@ img,
   padding: 2.2em 1.85em 0.5em 1.05em;
 }
 
-@media (max-width: 768px) {
-  img,
-  #logos {
-    flex-direction: column;
-    height: 105px;
-    width: 255px;
-    margin: 2em 3em 1.2em 3em;
-    padding: 0.15em 0.15em 1.22em 5.7em;
-  }
-}
 
-/* Contact Page */
 
 .contact {
+  padding-top: 7em;
   text-align: center;
-  margin-top: 1em;
 }
 
-.contact-info {
-  display: flex;
+.contact-info{
+  padding-top: 2em;
   text-align: center;
-  flex-direction: column;
-  text-align: center;
-  gap: 1em;
-}
-
-.social {
-  padding-left: .75em;
-}
-
-.social-media {
-  display: flex;
-  text-align: left;
-  flex-direction: column;
-  padding-left: 2em;
-  gap: .5em;
-}
-
-i{
-  text-transform: lowercase;
-  text-decoration: none;
-}
-
-/* Skills Page */
-
-.skillsIknow {
-  text-align: center;
-  margin-top: 1em;
 }
 
 .skills {
+  padding-top: 2em;
   text-align: center;
-  margin-right: 1.15em;
-  line-height: 0.75;
 }
 
-.myProjects {
-  text-align: left;
-  padding-left: 1em;
+.emperor-skills {
+  text-align: center;
 }
 
-.listprojects, a, ul {
-  text-decoration: none;
-  list-style: none;
+.myProjectsHeader{
+  margin-left: 2em;
+}
+
+.myProjects, ul {
+  margin-left: 1.1em;
+  list-style-type: none;
 }
 
 .footer {
-  padding-top: 20em;
-}
-
-/* Footer */
-
-.info {
+  margin-top: 20em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-/* navbar*/
-.navbar-toggler {
-  background-color: blue;
-  max-width: 12em;
-  max-height: 5em;
+  justify-content: space-around;
 }
