@@ -7,7 +7,7 @@
 
 
 body {
-  font-family: 'Barlow', sans-serif;
+  /* font-family: 'Barlow', sans-serif; */
   font-family: 'Edu NSW ACT Foundation', cursive;
   font-size: 16px;
   line-height: 1.5;
@@ -28,6 +28,7 @@ body {
 
 .banner {
   text-align: center;
+  
 }
 
 .aboutMe, .hobbies {
@@ -66,13 +67,12 @@ img,
   text-align: center;
 }
 
-.myProjectsHeader{
+.myProjectsHeader {
   margin-left: 2em;
 }
 
 .myProjects, ul {
   margin-left: 1.1em;
-  list-style-type: none;
 }
 
 .footer {
